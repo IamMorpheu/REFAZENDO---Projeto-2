@@ -1,0 +1,123 @@
+body {
+    width: 1280px;
+    height: 720px;
+  }
+  
+  #page {
+    width: 1005px;
+    margin: 65px 150px 110px 120px; 
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 110px;
+    align-items: center;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 48px;
+    font: normal 400 18px /normal Mulish;
+  }
+  
+  a {
+    color: #1f1534;
+    text-decoration: none;
+  }
+  
+  ul li a {
+      opacity: 0.5;
+  }
+  
+  ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+  }
+
+  main {
+    width: 489px;
+    height: 332px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 105px 130px 120px;
+  }
+  
+  main h1 {
+    width: 489px;
+    height: 112px;
+    color: black;
+    font: normal 400 49px /56px Mulish;
+    margin: 0 0 40px 0;
+  }
+
+  #woman {
+    margin: 0 0 100px 102px;
+  }
+
+  #woman img  {
+    margin: 0 0 100px 102px;
+    width: 417px;
+    height: 430px;
+    display: flex;
+  }
+
+  main button img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+  }
+
+  h1 span {
+    color: #89C5CC;
+    font-weight: 700;
+  }
+
+
+  section {
+    width: 438px;
+    height: 84px;
+    
+  }
+
+  section p {
+    color: #7D7987;
+    font: normal 400 14px /28px Open Sans;
+    margin: 0 0 40px 0;
+  }
+
+  section p span {
+    color: #7D7987;
+    font-weight: 700;
+  }
+
+
+  button {
+    display: inline-flex;
+    height: 56px;
+    padding: 14px 32px 15px 32px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    background-color: #69B99D;
+    color: #F9F9F9;
+    border-radius: 4px;
+    border-color: #F9F9F9;
+  }
+
+  footer {
+    padding-top: 80px;
+    margin: 90px 258px 30px 344px;
+    width: 592px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font: normal 400 14px /28px Open Sans;
+  }
